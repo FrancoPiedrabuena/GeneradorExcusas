@@ -2,6 +2,7 @@ window.onload = () => {
   document.querySelector("#boton").addEventListener("click", () => {
     document.querySelector("#excuse").innerHTML = generateExcuse();
   });
+  document.querySelector("#excuse").innerHTML = generateExcuse();
 };
 
 let generateExcuse = function() {
